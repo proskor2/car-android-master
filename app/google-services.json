@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "639552757770",
+    "project_id": "cifracar-c0f98",
+    "storage_bucket": "cifracar-c0f98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639552757770:android:54423ffa973ba16622bff3",
+        "android_client_info": {
+          "package_name": "store.dide.cifracar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639552757770-bust3f35q26rvncvh5frih3krn5bm275.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "store.dide.cifracar",
+            "certificate_hash": "538a24394d2193b3d16ba68baeb6da904e26454a"
+          }
+        },
+        {
+          "client_id": "639552757770-tm42slm5hv1g01ps2lj9qsbfg8lo92tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDakgG2p3EyLM9KFeKs4IUzKNTi2UHy4iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639552757770-tm42slm5hv1g01ps2lj9qsbfg8lo92tr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "639552757770-rta1e293qd9h9ei48g4ommd2cqq8ntqn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "store.dide.cifracar",
+                "app_store_id": "1592673431"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CifraCar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_main">Главная</string>
+    <string name="title_setting">Настройки</string>
+    <string name="title_create">Добавить</string>
+    <string name="start">Начать</string>
+    <string name="startDemo">Демо</string>
+    <string name="mainTransport">Транспорт</string>
+    <string name="mainCreate">Добавить</string>
+    <string name="mainSettings">Настройки</string>
+    <string name="search">Поиск</string>
+    <string name="cancel">Отменить</string>
+    <string name="nfcalerttext">Поднесите Ваш NFC-токен к устройству для их сопряжения</string>
+    <string name="connectnfc">Регистрация сервисной карты</string>
+    <string name="connect">Подключить</string>
+    <string name="nfcerror">Ваше устройство не содержит модуль NFC, используйте QR код</string>
+    <string name="nfcenable">Включите NFC в настройках устройства</string>
+    <string name="qr">QR код</string>
+    <string name="link_use_conditions"><u>Условия использования</u></string>
+    <string name="link_privacy_police"><u>Политика конфиденциальности</u></string>
+    <string name="Information_by_phone"><u>Здесь содержится некоторое объяснение, для чего нужно вводить номер телефона</u></string>
+    <string name="Information_by_phone_Error">Номер телефона указан неверно</string>
+    <string name="Information_by_phone_Code_Error">Код указан неверно</string>
+    <string name="Resend_Phone_Code">Повторить отправку кода</string>
+    <string name="title_activity_pin_reg">PinRegActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_finish_reg">FinishRegActivity</string>
+    <string name="nocard">Нет карты? Приобрести</string>
+</resources>
