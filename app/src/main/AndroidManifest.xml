@@ -18,21 +18,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.pin.PinAuthActivity"
+            android:name=".arhive.ui.pin.PinAuthActivity"
             android:exported="false" />
         <activity
-            android:name=".FinishRegActivity"
+            android:name=".arhive.ui.FinishRegActivity"
             android:exported="false"
             android:label="@string/title_activity_finish_reg"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.pin.PinRegActivity"
+            android:name=".arhive.ui.pin.PinRegActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.phone.LoginPhoneConfirmActivity"
+            android:name=".arhive.ui.phone.LoginPhoneConfirmActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.phone.LoginPhoneActivity"
+            android:name=".arhive.ui.phone.LoginPhoneActivity"
             android:exported="false" />
         <activity
             android:name=".NFCReadActivity"
@@ -68,7 +68,7 @@
                 android:resource="@xml/techlist" />
         </activity>
         <activity
-            android:name=".StartActivity"
+            android:name=".arhive.ui.StartActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.FullScreen"

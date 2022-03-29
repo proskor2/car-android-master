@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
     android:background="#FFFFFF"
-    tools:context=".StartActivity">
+    tools:context=".arhive.ui.StartActivity">
 
     <VideoView
         android:id="@+id/videoView"

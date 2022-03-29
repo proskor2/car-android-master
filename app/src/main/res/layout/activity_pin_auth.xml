@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.pin.PinAuthActivity">
+    tools:context=".arhive.ui.pin.PinAuthActivity">
 
     <TextView
         android:id="@+id/textView11"
@@ -38,7 +38,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView2"
-        android:name="store.dide.cifracar.ui.pin.PinFragment"
+        android:name="store.dide.cifracar.arhive.ui.pin.PinFragment"
         android:layout_width="0dp"
         android:layout_height="380dp"
         android:layout_marginTop="28dp"

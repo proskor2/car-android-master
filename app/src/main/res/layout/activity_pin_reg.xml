@@ -23,7 +23,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="store.dide.cifracar.ui.pin.PinFragment"
+        android:name="store.dide.cifracar.arhive.ui.pin.PinFragment"
         android:layout_width="0dp"
         android:layout_height="380dp"
         android:layout_marginTop="32dp"

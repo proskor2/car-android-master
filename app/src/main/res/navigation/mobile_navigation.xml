@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_main"
-        android:name="store.dide.cifracar.ui.main.MainFragment"
+        android:name="store.dide.cifracar.arhive.ui.main.MainFragment"
         android:label="@string/mainTransport"
         tools:layout="@layout/fragment_main" />
 
     <fragment
         android:id="@+id/navigation_create"
-        android:name="store.dide.cifracar.ui.create.CreateFragment"
+        android:name="store.dide.cifracar.arhive.ui.create.CreateFragment"
         android:label="@string/mainCreate"
         tools:layout="@layout/fragment_create" />
 
     <fragment
         android:id="@+id/navigation_settings"
-        android:name="store.dide.cifracar.ui.settings.SettingsFragment"
+        android:name="store.dide.cifracar.arhive.ui.settings.SettingsFragment"
         android:label="@string/mainSettings"
         tools:layout="@layout/fragment_settings" />
 </navigation>
