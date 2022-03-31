@@ -49,11 +49,22 @@ class NFCReadActivity : AppCompatActivity() {
             } else if (!nfcAdapter.isEnabled) {
                 showAlertDialog(R.layout.nfcdisabledalert, null)
             } else if (nfcAdapter.isEnabled) {
+                binding.buttonConnectnfc.visibility = View.GONE
+                binding.cardProgressbar.visibility = View.VISIBLE
                 nfcAdapter.enableForegroundDispatch(this, nfcPendingIntent, null, null)
                 val view = LayoutInflater.from(this).inflate(R.layout.nfcalert, null)
                 val imagegif = view.findViewById<ImageView>(R.id.imagegif)
                 Glide.with(view).load(R.drawable.gifnfc).into(imagegif)
-                showAlertDialog(null, view)
+                val builder = AlertDialog.Builder(this)
+                builder.setView(view)
+                builder.create()
+                builder.setOnDismissListener() {
+                    binding.buttonConnectnfc.visibility = View.VISIBLE
+                    binding.cardProgressbar.visibility = View.GONE
+                }
+                builder.show()
+
+
 //                val formPhone=Intent(this, LoginPhoneActivity::class.java)
 //                startActivity(formPhone)
             } else {
@@ -125,8 +136,7 @@ class NFCReadActivity : AppCompatActivity() {
             }
         }
 
-        tagGUID
-        phoneGUID
+
     }
 
     fun showAlertDialog(resource: Int?, view: View?) {
@@ -134,5 +144,7 @@ class NFCReadActivity : AppCompatActivity() {
         if (resource == null) builder.setView(view) else builder.setView(resource)
         builder.create()
         builder.show()
+
+
     }
 }

@@ -19,6 +19,7 @@ import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.interfaces.Detector
+import store.dide.cifracar.arhive.ui.pin.PinAuthActivity
 
 class QRActivity : AppCompatActivity() {
 
@@ -59,7 +60,7 @@ class QRActivity : AppCompatActivity() {
                     if (barcodes.valueAt(0).displayValue.contains("cifracar.online")) {
                         builder.setMessage(barcodes.valueAt(0).displayValue)
                         builder.setPositiveButton("Закрыть") { dialog, which ->
-                            startActivity(Intent(this@QRActivity, MainActivity::class.java))
+                            startActivity(Intent(this@QRActivity, PinAuthActivity::class.java))
                             cameraSource.start(svBarcode.holder)
                             finish()
                         }

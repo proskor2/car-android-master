@@ -69,9 +69,12 @@
         <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/activity_start.xml" value="0.18085106382978725" />
         <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/activity_tag_store.xml" value="1.0" />
         <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/fragment_create.xml" value="0.4180327868852459" />
+        <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/fragment_scan_q_r.xml" value="0.5578125" />
         <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/nfcalert.xml" value="0.8670634920634921" />
         <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/nfcdisabledalert.xml" value="0.8670634920634921" />
         <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/nfcnone.xml" value="0.8670634920634921" />
+        <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/phone_view.xml" value="0.5578125" />
+        <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/pin_fragment.xml" value="0.5578125" />
         <entry key="..\:/Users/User/Downloads/car-android-master (1)/car-android-master/app/src/main/res/layout/tagerror.xml" value="0.8670634920634921" />
       </map>
     </option>
