@@ -9,9 +9,9 @@
     <string name="mainTransport">Транспорт</string>
     <string name="mainCreate">Добавить</string>
     <string name="mainSettings">Настройки</string>
-    <string name="search">Поиск</string>
+    <string name="addnfctip">Подсказка</string>
     <string name="cancel">Отменить</string>
-    <string name="nfcalerttext">Поднесите Ваш NFC-токен к устройству для их сопряжения</string>
+    <string name="nfcalerttext">Приложите приобретенный NFC-токен к устройству для их сопряжения, это не займет много времени.</string>
     <string name="connectnfc">Регистрация сервисной карты</string>
     <string name="connect">Подключить</string>
     <string name="nfcerror">Ваше устройство не содержит модуль NFC, используйте QR код</string>
@@ -36,4 +36,5 @@
     <string name="nocard">Нет карты? Приобрести</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="errorcard">Карта заблокирована</string>
 </resources>
