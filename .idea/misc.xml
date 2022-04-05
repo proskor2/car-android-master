@@ -18,6 +18,7 @@
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/activity_start.xml" value="0.5578125" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/activity_tag_store.xml" value="0.5578125" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/exist_car.xml" value="0.25" />
+        <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/finishreg.xml" value="0.33" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/fragment_create.xml" value="0.5578125" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/fragment_main.xml" value="0.5578125" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/fragment_scan_q_r.xml" value="0.5578125" />
@@ -26,11 +27,12 @@
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/nfcalert.xml" value="0.5578125" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/nfcdisabledalert.xml" value="0.5578125" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/nfcnone.xml" value="0.5578125" />
-        <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/passport.xml" value="0.25" />
+        <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/passport.xml" value="0.33" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/phone_view.xml" value="0.5578125" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/pin_fragment.xml" value="0.5578125" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/registration.xml" value="0.33" />
         <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/tagerror.xml" value="0.5578125" />
+        <entry key="..\:/Android projects/car-android-master (1)/car-android-master/app/src/main/res/layout/vote.xml" value="0.5578125" />
         <entry key="..\:/Android/car-android/app/src/main/res/drawable-v31/buttoncolorbackgr.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/car-android/app/src/main/res/drawable/buttonbordercolor.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/car-android/app/src/main/res/drawable/buttoncolor.xml" value="0.3880208333333333" />
