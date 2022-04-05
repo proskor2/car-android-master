@@ -19,11 +19,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ActivityTagStore"
+            android:name=".views.ActivityTagStore"
             android:exported="false" />
         <activity
-            android:name=".QRActivity"
-            android:exported="false" />
+            android:name=".views.QRActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.FullScreen"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".arhive.ui.pin.PinAuthActivity"
             android:exported="false" />
@@ -42,7 +44,7 @@
             android:name=".arhive.ui.phone.LoginPhoneActivity"
             android:exported="false" />
         <activity
-            android:name=".NFCReadActivity"
+            android:name=".views.NFCReadActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
@@ -81,7 +83,7 @@
             android:theme="@style/AppTheme.FullScreen"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".MainActivity"
+            android:name=".views.MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait" />

@@ -10,7 +10,7 @@ import store.dide.cifracar.R
 
 class PinAuthActivity : AppCompatActivity() {
 
-    private val temppin="1234"
+    private val temppin = "1234"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,19 +21,19 @@ class PinAuthActivity : AppCompatActivity() {
             actionBar.setDisplayHomeAsUpEnabled(true)
             actionBar.title = "Вход"
         }
-        textView10.text="Введите пароль"
+        textView10.text = "Введите пароль"
 
         val mainFragment: PinFragment = PinFragment()
         supportFragmentManager.beginTransaction().add(R.id.fragmentContainerView2, mainFragment)
             .commit()
-        mainFragment.addPinSymbol={
-            if(mainFragment.pin==temppin){
+        mainFragment.addPinSymbol = {
+            if (mainFragment.pin == temppin) {
                 mainFragment.ClearPage()
                 val intent = Intent(this, FinishRegActivity::class.java)
                 startActivity(intent)
             }
-            if(mainFragment.pin!=temppin && mainFragment.pin.length==mainFragment.maxLength)
-                mainFragment.textView55.text="Введённый пароль не корректен"
+            if (mainFragment.pin != temppin && mainFragment.pin.length == mainFragment.maxLength)
+                mainFragment.textView55.text = "Введённый пароль не корректен"
         }
     }
 

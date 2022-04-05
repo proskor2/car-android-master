@@ -94,7 +94,6 @@ class PinFragment : Fragment() {
             textView30.setBackgroundResource(R.drawable.ellipse)
         }
         pin += number.toString()
-
         addPinSymbol()
     }
 

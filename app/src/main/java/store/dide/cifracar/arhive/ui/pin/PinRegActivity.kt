@@ -26,6 +26,8 @@ class PinRegActivity : AppCompatActivity() {
         }
         textView13.text="Введите пароль"
 
+
+
         step = intent.getStringExtra("step")?.toInt() ?: 1
 
         val mainFragment: PinFragment = PinFragment()

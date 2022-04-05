@@ -9,8 +9,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import kotlinx.android.synthetic.main.activity_start.*
-import store.dide.cifracar.MainActivity
-import store.dide.cifracar.NFCReadActivity
+import store.dide.cifracar.views.MainActivity
+import store.dide.cifracar.views.NFCReadActivity
 import store.dide.cifracar.R
 
 class StartActivity : AppCompatActivity() {

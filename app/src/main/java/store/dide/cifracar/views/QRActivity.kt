@@ -1,4 +1,4 @@
-package store.dide.cifracar
+package store.dide.cifracar.views
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -14,11 +14,8 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.android.gms.vision.CameraSource
 import com.google.android.gms.vision.barcode.BarcodeDetector
-import com.google.mlkit.vision.barcode.BarcodeScannerOptions
-import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
-import com.google.mlkit.vision.common.InputImage
-import com.google.mlkit.vision.interfaces.Detector
+import store.dide.cifracar.R
 import store.dide.cifracar.arhive.ui.pin.PinAuthActivity
 
 class QRActivity : AppCompatActivity() {

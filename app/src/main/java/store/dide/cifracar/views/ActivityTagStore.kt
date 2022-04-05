@@ -1,4 +1,4 @@
-package store.dide.cifracar
+package store.dide.cifracar.views
 
 import android.content.Intent
 import android.net.Uri
